@@ -14,7 +14,6 @@
     "@uiw/codemirror-theme-vscode": "^4.21.13",
     "@uiw/codemirror-themes-all": "^4.21.13",
     "@uiw/react-codemirror": "^4.21.13",
-    "cm6-graphql": "^0.0.9",
     "codemirror-lang-graphql": "file:packages/codemirror-lang-graphql-1.0.tgz",
     "elkjs": "^0.8.2",
     "graphql": "^16.8.0",

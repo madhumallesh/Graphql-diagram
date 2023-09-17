@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .custom-node {
+        @apply w-[auto] rounded-sm bg-gray-800 text-white shadow-lg
+    }
+
+    .custom-node__header {
+        @apply font-thin text-xs relative
+    }
+
+    .custom-node__header-handle {
+        @apply w-[1px] h-[1px] bg-white invisible
+    }
+
+    .custom-node__item {
+        @apply text-type flex justify-start gap-[5px] relative h-[15px]
+    }
+
+    .custom-node__field-value {
+        @apply font-semibold tracking-wider
+    }
+
+    .custom-node__field-name {
+        @apply text-slate-200 font-normal
+    }
+
+    .text-type {
+        font-size: 6px;
+    }
+
+    .text-custom-xs {
+        font-size: 8px;
+    }
+
+    .is-scalar {
+        @apply text-green-500
+    }
+
+    .is-input {
+        @apply text-amber-500
+    }
+
+    .is-type {
+        @apply text-blue-500
+    }
+
+    .is-union {
+        @apply text-emerald-400
+    }
+
+    .is-enum {
+        @apply text-pink-500
+    }
+
+    .is-interface {
+        @apply text-red-500
+    }
+
+    .is-schema {
+        @apply text-pink-400
+    }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "flow-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "@uiw/codemirror-extensions-basic-setup": "^4.21.13",
+    "@uiw/codemirror-theme-vscode": "^4.21.13",
+    "@uiw/codemirror-themes-all": "^4.21.13",
+    "@uiw/react-codemirror": "^4.21.13",
+    "cm6-graphql": "^0.0.9",
+    "codemirror-lang-graphql": "file:packages/codemirror-lang-graphql-1.0.tgz",
+    "elkjs": "^0.8.2",
+    "graphql": "^16.8.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.1.2",
+    "react-resizable-panels": "^0.0.54",
+    "reactflow": "^11.8.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.0.0"
+  }
+}

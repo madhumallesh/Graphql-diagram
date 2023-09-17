@@ -1,0 +1,18 @@
+.react-flow__handle {
+    min-width: 0.1px;
+    min-height: 0.1px;
+    color: aliceblue;
+}
+
+.react-flow__panel {
+    margin: 1px;
+}
+
+.react-flow__edge.selected .react-flow__edge-path {
+    stroke: #3b82f6;
+}
+
+.custom-edge-path {
+    fill: none;
+    /* stroke-width: ; */
+}

@@ -14,5 +14,11 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Run the Server
+        run: npm run dev
+
+      - name: build the package
+        run: npm run build
+        
       - name: Demo it 
         run: echo "🎉 The job was automatically triggered by Mallesh."

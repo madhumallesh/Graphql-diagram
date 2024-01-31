@@ -1,9 +1,15 @@
 name: Build The dist
 run-name: ${{ github.actor }} is testing out GitHub Actions MAIN Program
-on: [push]
+on: 
+  push:
+    branches:
+      - main
 jobs:
   Explore-GitHub-Actions:
     runs-on: self-hosted
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🎉 The job was automatically triggered by Mallesh."
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Demo it 
+        run: echo "🎉 The job was automatically triggered by Mallesh."

@@ -18,4 +18,4 @@ jobs:
         run: npm run build
 
       - name: Demo it 
-        run: echo "🎉 The job was automatically triggered by Mallesh."
+        run: echo "🎉 The job was automatically triggered by Mallesh"
